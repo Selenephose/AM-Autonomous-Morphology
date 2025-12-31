@@ -1,14 +1,30 @@
 {
   "name": "am-autonomous-morphology",
   "version": "1.0.0",
+  "description": "AM (Autonomous Morphology) is a research-grade experimental cognitive agent designed to study how autonomous systems can self-organize internal world models, abstract latent representations, and form reusable skills through interaction, prediction, and internal optimization.",
   "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
+  "directories": {
+    "doc": "docs"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selenephose/AM-Autonomous-Morphology.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Selenephose/AM-Autonomous-Morphology/issues"
+  },
+  "homepage": "https://github.com/Selenephose/AM-Autonomous-Morphology#readme",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^4.0.0",
-    "mathjs": "^11.0.0",
-    "express": "^4.18.2"
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "express": "^5.2.1",
+    "mathjs": "^15.1.0",
+    "ws": "^8.18.3"
   }
 }

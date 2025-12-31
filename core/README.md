@@ -1,16 +1,18 @@
-# AM-Autonomous-Morphology
+# AM — Autonomous Morphology
 
-Autonomous agents that learn and adapt internal representations ("morphology") through interaction, compression, and control.
+A research-grade hierarchical cognitive architecture for:
+• world-model learning
+• latent abstraction
+• symbol lifecycle analysis
+• meta-skill emergence
+• counterfactual planning
 
-## Project structure
-- core/        core algorithms and agents
-- envs/        environments and wrappers
-- experiments/ runnable experiment scripts
-- analysis/    notebooks and plots
-- docs/        design notes and architecture
+Layered architecture:
 
-## Quickstart
-(TODO) Add install + run commands once code is added.
+Kernel → learns dynamics  
+Cortex → reasons about abstractions
 
-## Status
-Prototype / WIP
+This is not an LLM wrapper.  
+This is a world-model-centric cognitive system.
+
+
