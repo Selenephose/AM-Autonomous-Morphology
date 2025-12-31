@@ -1,14 +1,34 @@
-# AM-Autonomous-Morphology
-A research-grade experimental cognitive agent that learns internal world models, abstracts latent representations, and forms reusable skills through imagination-based planning.
+AM (Autonomous Morphology) is a research-grade experimental cognitive agent designed to study how autonomous systems can self-organize internal world models, abstract latent representations, and form reusable skills through interaction, prediction, and internal optimization.
 
-The project explores how agents can self-organize abstract representations and reusable behavioral structures through interaction, curiosity, and internal prediction error.
+This project explores how agents can construct internal representations of their environment, compress sensory experience into latent abstractions, and develop reusable behavioral structures through curiosity-driven learning and counterfactual evaluation.
+
+Research Focus
 
 This repository serves as a research sandbox for studying:
 
-• Latent abstraction learning  
-• Predictive world modeling  
-• Counterfactual planning  
-• Skill emergence and reuse  
-• Self-organizing cognitive structures  
+Latent abstraction learning
+Predictive world modeling
+Counterfactual planning and imagination
+Skill emergence and reuse
+Self-organizing cognitive structures
+Curiosity-driven exploration
 
-The long-term goal is to investigate how complex adaptive behavior can arise from simple learning primitives.
+Internal representation compression
+
+Long-Term Goal
+
+The long-term goal of AM is to investigate how complex adaptive behavior can arise from simple learning primitives, and how scalable cognitive architectures can be constructed without hard-coded symbolic reasoning.
+AM is not a benchmark model; it is an evolving research organism.
+
+Repository Structure
+
+core/        Core cognitive kernels and learning systems
+envs/        Training and simulation environments
+experiments/ Runnable experiments and ablations
+analysis/    Metrics, plots, and evaluation tools
+docs/        Design notes and architecture documents
+
+
+Status
+
+Active research / Experimental
